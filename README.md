@@ -1,3 +1,4 @@
+
 # AI Image Color Detector Python Tool
 
 This project is an AI-powered tool designed to detect and extract prominent color codes from any given image. By utilizing K-means clustering, the tool identifies the most significant colors in the image and provides their RGB and HEX codes. This Python-based tool is perfect for developers, designers, and anyone interested in analyzing the color composition of images.
@@ -19,23 +20,17 @@ To get started with this project, follow these steps:
 
 ## Usage
 
-To run the script and use the tool, follow these steps:
+To run the tool, you can use the provided Jupyter Notebook.
 
-1. **Run the script**:
-    ```bash
-    python color_detector.py
-    ```
+1. **Open the Jupyter Notebook**:
+    - Open `ai_image_color_detector_python_tool.ipynb` in Jupyter Notebook or Google Colab.
 
-2. **Upload an image**:
-    - When prompted, upload the image you want to analyze.
-
-3. **View the results**:
-    - The script will display the uploaded image.
-    - It will then detect and display the prominent colors in the image along with their RGB and HEX codes.
+2. **Run the notebook**:
+    - Follow the instructions in the notebook to upload an image and analyze its colors.
 
 ## Example Code
 
-Here is the main script (`color_detector.py`):
+Here is the main script from the notebook (`ai_image_color_detector_python_tool.ipynb`):
 
 ```python
 import cv2
